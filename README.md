@@ -38,15 +38,9 @@ Para copiar e executar essa aplicação, você precisa de três pré-requisitos:
 
 No terminal, digite os comandos a seguir:
 
-### Baixar e instalar o projeto
+### Instalar o projeto
 
 ```bash
-# Clonar esse repositório
-$ git clone https://github.com/alura-cursos/react-native-ficando-online.git
-
-# Vá para o ropositório
-$ cd AluraHub
-
 # Instale as dependências
 $ npm install
 ```

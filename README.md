@@ -62,5 +62,8 @@ npm install -g json-server
 Execute o seguinte comando no terminal:
 
 ```bash
-json-server --watch db.json
+json-server --host 192.168.0.xxx --watch db.json
+
+# Se lembre de adicionar uma variavel de ambiente com seu ip
 ```
+

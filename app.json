@@ -27,6 +27,9 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "enableComments": "process.env.REACT_APP_API_URL === 'true'"
     }
   }
 }

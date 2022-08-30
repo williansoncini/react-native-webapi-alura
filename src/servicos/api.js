@@ -1,11 +1,10 @@
 import axios from 'axios';
+import {API_IP} from '../config/config';
 
-console.log(
-  `http://${process.env.REACT_APP_API_URL}:3000/`,
-);
+console.log(`http://${API_IP}:3000/`);
 
 const api = axios.create({
-  baseURL: `http://${process.env.REACT_APP_API_URL}:3000/`,
+  baseURL: `http://${API_IP}:3000/`,
 });
 
 export default api;

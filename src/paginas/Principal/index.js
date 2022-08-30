@@ -81,6 +81,7 @@ export default function Principal({navigation}) {
               onPress={() =>
                 navigation.navigate(
                   'Repositorios',
+                  {id: usuario.id},
                 )
               }>
               <Text style={estilos.repositorios}>
